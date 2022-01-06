@@ -154,3 +154,36 @@ footer{
 footer h1{
     color: white;
 }
+
+.contact{
+    width: 80%;
+    margin: 90px auto;
+    display: flex;
+}
+.address{
+    width: 50%;
+}
+.address h2{
+    font-size: 25px;
+    color: #FF5959;
+}
+.address-item{
+    line-height: 1px;
+    padding: 3px 0px;
+}
+.form{
+    width: 40%;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 20px;
+}
+.form input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #4b4a47;
+}
+.form textarea{
+    border: none;
+    margin-top: 10px;
+    border-bottom: 1px solid #4b4a47;
+}
