@@ -2,10 +2,11 @@
 body{
     margin: 0px;
     background-color: #FFFFFF ;
+    font-family: 'Poppins', sans-serif;
 }
 .top-section{
-    width: 70%;
-    height: 100vh;
+    width: 75%;
+    height: 500px;
     display: flex;
     align-items: center;
     margin: auto;
@@ -18,12 +19,13 @@ body{
     font-size: 50px;
     padding-left: 10px;
     line-height: 60px;
+    font-family: 'Yeseva One', cursive;
 }
 .text-content p{
     width: 400px;
     color: #4B4B4B;
-    font-size: 20px;
 }
+
 .image{
     width: 40%;
 }
@@ -150,9 +152,11 @@ footer{
     text-align: center;
     padding-top: 20px;
     color: #B7B9BF;
+    font-family: 'Poppins', sans-serif;
 }
 footer h1{
     color: white;
+    font-family: 'Lobster', cursive;
 }
 
 .contact{
@@ -165,7 +169,8 @@ footer h1{
 }
 .address h2{
     font-size: 25px;
-    color: #FF5959;
+    border-bottom: 2px solid #FF5959;
+    width: 150px;
 }
 .address-item{
     line-height: 1px;
@@ -175,6 +180,7 @@ footer h1{
     width: 40%;
     background-color: whitesmoke;
     padding: 30px;
+    padding-top: 10px;
     border-radius: 20px;
 }
 .form input{
@@ -185,5 +191,6 @@ footer h1{
 .form textarea{
     border: none;
     margin-top: 10px;
+    margin-bottom: 10px;
     border-bottom: 1px solid #4b4a47;
 }
